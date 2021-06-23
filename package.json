@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lhci:autorun": "lhci autorun",
     "lint:fix": "eslint ./src --fix && prettier ./src --write",
     "test": "npx jest"
   },
   "dependencies": {
+    "@lhci/cli": "^0.6.1",
     "chart.js": "^3.3.2",
     "destyle.css": "^2.0.2",
     "glob": "^7.1.7",
