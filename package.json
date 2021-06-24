@@ -6,19 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "dev:server": "ts-node --project tsconfig.node.json src/server/index.ts",
     "lhci:autorun": "lhci autorun",
     "lint:fix": "eslint ./src --fix && prettier ./src --write",
     "test": "npx jest"
   },
   "dependencies": {
     "@lhci/cli": "^0.6.1",
+    "@lhci/server": "^0.8.0",
     "chart.js": "^3.3.2",
     "destyle.css": "^2.0.2",
     "glob": "^7.1.7",
     "next": "10.2.3",
     "react": "17.0.2",
     "react-chartjs-2": "^3.0.3",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.13.0",
@@ -36,6 +39,7 @@
     "jest-dom": "^4.0.0",
     "prettier": "^2.3.0",
     "ts-jest": "^27.0.2",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
   }
 }
