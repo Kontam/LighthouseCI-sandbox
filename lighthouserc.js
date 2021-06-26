@@ -2,7 +2,7 @@ module.exports = {
   ci: {
     collect: {
       headful: false,
-      url: 'https://konkonta.com',
+      url: ['https://konkonta.com', 'https://cheer.konkonta.com'],
     },
     upload: {
       target: 'lhci',
