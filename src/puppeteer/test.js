@@ -9,5 +9,5 @@ module.exports = async (browser, context) => {
   */
   //await page.waitForNavigation();
   // close session for next run
-  await page.close();
+  //await page.close();
 };
