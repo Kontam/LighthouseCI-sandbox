@@ -3,6 +3,7 @@ module.exports = {
     collect: {
       headful: false,
       url: ['https://konkonta.com', 'https://cheer.konkonta.com'],
+      puppeteerScript: 'src/puppeteer/test.js',
     },
     upload: {
       target: 'lhci',
