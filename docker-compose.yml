@@ -1,0 +1,6 @@
+node:
+  container_name: "lhciServerNode"
+  build: .
+  ports:
+    - "5000:5000"
+  tty: true
